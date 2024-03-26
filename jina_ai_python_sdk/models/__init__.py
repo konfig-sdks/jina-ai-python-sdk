@@ -1,0 +1,36 @@
+# coding: utf-8
+
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from jina_ai_python_sdk.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from jina_ai_python_sdk.model.api_schemas_embedding_text_doc import ApiSchemasEmbeddingTextDoc
+from jina_ai_python_sdk.model.api_schemas_embedding_text_embedding_input import ApiSchemasEmbeddingTextEmbeddingInput
+from jina_ai_python_sdk.model.api_schemas_embedding_usage import ApiSchemasEmbeddingUsage
+from jina_ai_python_sdk.model.api_schemas_multi_embeddings_text_embedding_input import ApiSchemasMultiEmbeddingsTextEmbeddingInput
+from jina_ai_python_sdk.model.api_schemas_rank_text_doc import ApiSchemasRankTextDoc
+from jina_ai_python_sdk.model.api_schemas_rank_usage import ApiSchemasRankUsage
+from jina_ai_python_sdk.model.body_start_bulk_embedding_v1_bulk_embeddings_post import BodyStartBulkEmbeddingV1BulkEmbeddingsPost
+from jina_ai_python_sdk.model.bulk_embedding_job_response import BulkEmbeddingJobResponse
+from jina_ai_python_sdk.model.bulk_embedding_job_status import BulkEmbeddingJobStatus
+from jina_ai_python_sdk.model.colbert_model_embeddings_output import ColbertModelEmbeddingsOutput
+from jina_ai_python_sdk.model.colbert_model_embeddings_output_data import ColbertModelEmbeddingsOutputData
+from jina_ai_python_sdk.model.download_result_response import DownloadResultResponse
+from jina_ai_python_sdk.model.embeddings_create_representation_request import EmbeddingsCreateRepresentationRequest
+from jina_ai_python_sdk.model.http_validation_error import HTTPValidationError
+from jina_ai_python_sdk.model.image_doc import ImageDoc
+from jina_ai_python_sdk.model.image_embedding_input import ImageEmbeddingInput
+from jina_ai_python_sdk.model.model_embedding_output import ModelEmbeddingOutput
+from jina_ai_python_sdk.model.model_embedding_output_data import ModelEmbeddingOutputData
+from jina_ai_python_sdk.model.ranking_output import RankingOutput
+from jina_ai_python_sdk.model.ranking_output_results import RankingOutputResults
+from jina_ai_python_sdk.model.text_rank_input import TextRankInput
+from jina_ai_python_sdk.model.validation_error import ValidationError
+from jina_ai_python_sdk.model.validation_error_loc import ValidationErrorLoc
